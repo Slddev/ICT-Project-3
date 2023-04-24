@@ -1,5 +1,6 @@
 .column {
     column-count: 3;
+    margin: 0 5rem;
 }
 
 .column h1 {
@@ -10,5 +11,6 @@
 @media screen and (max-width: 600px){
     .column {
         column-count: 1;
+        margin: 0 5rem;
     }
 }

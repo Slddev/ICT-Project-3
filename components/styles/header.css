@@ -1,5 +1,5 @@
 .header {
-    width: 100vw;
+    width: 100%;
     background: url(../assets/HeaderArt.jpeg);
     background-size: cover;
     margin: 0;
@@ -12,6 +12,11 @@
     border-bottom: 1px rgba(255, 255, 255, .5) solid;
 
     text-align: center;
+}
+
+.titlebox img {
+    max-width: 100%;
+    height: auto;
 }
 
 .navbar {

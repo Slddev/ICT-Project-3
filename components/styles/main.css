@@ -1,9 +1,15 @@
+@font-face {
+    font-family: DINNext;
+    src: url("../assets/DIN Next LT Pro Regular.ttf");
+}
+
 * {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: DINNext, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0;
 
