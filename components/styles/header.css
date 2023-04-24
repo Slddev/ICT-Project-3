@@ -26,19 +26,20 @@
     background: rgba(0, 0, 0, 0.8);
 
     border-bottom: 1px rgba(255, 255, 255, .5) solid;
-
-    color: white;
+    
     justify-content: center;
-    gap: 5px;
+    gap: 28px;
 }
 
 .navitem {
     padding: 5px;
     border-radius: 5px;
     transition: .2s ease-in;
-    color: rgba(255, 255, 255, .7);
+    color: #B5B7B7;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .navitem:hover {
-    color: white;
+    color: #f8f8f8;
 }
