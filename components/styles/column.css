@@ -1,0 +1,14 @@
+.column {
+    column-count: 3;
+}
+
+.column h1 {
+    column-span: all;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .column {
+        column-count: 1;
+    }
+}

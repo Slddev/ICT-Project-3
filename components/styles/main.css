@@ -1,0 +1,19 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    background: url(../assets/background-stars.jpeg);
+    background-position: center top;
+    background-repeat: repeat;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
