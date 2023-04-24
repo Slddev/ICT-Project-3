@@ -9,7 +9,7 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 
-    border-bottom: 5px rgba(255, 255, 255, .5) solid;
+    border-bottom: 1px rgba(255, 255, 255, .5) solid;
 
     text-align: center;
 }
@@ -20,7 +20,7 @@
     padding: 1rem 0;
     background: rgba(0, 0, 0, 0.8);
 
-    border-bottom: 5px rgba(255, 255, 255, .5) solid;
+    border-bottom: 1px rgba(255, 255, 255, .5) solid;
 
     color: white;
     justify-content: center;
@@ -29,12 +29,11 @@
 
 .navitem {
     padding: 5px;
-    border: 2px rgba(255, 255, 255, .5) solid;
     border-radius: 5px;
     transition: .2s ease-in;
+    color: rgba(255, 255, 255, .7);
 }
 
 .navitem:hover {
-    background-color: rgba(0, 0, 0, 0.3);
     color: white;
 }
