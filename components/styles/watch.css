@@ -1,0 +1,34 @@
+main {
+    flex-wrap: wrap;
+}
+
+.column {
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.watch {
+    max-width: 1000px;
+}
+
+.watch video {
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 28px;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    border: 1px white solid;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.pagination a:hover {
+    background: rgba(255, 255, 255, 0.5);
+}

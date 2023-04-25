@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>The Mandalorian | Watch</title>
+	<link rel="stylesheet" href="components/styles/main.css" />
+	<link rel="stylesheet" href="components/styles/header.css" />
+	<link rel="stylesheet" href="components/styles/column.css" />
+	<link rel="stylesheet" href="components/styles/watch.css">
+	<script src="components/scripts/watch.js"></script>
+</head>
+<body onload="getVideo()">
+	<div class="pageWrapper">
+		<header>
+			<div class="titlebox">
+				<img src="components/assets/LogoText.png" alt="" />
+			</div>
+			<div class="navbar">
+				<div class="navitem">
+					<a href="index.html">Home</a>
+				</div>
+				<div class="navitem">
+					<a href="watch.html">Watch</a>
+				</div>
+				<div class="navitem">
+					<a href="about.html">About</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="column">
+				<div class="title">
+					<h1 id="title">Watch The Mandalorian</h1>
+				</div>
+				<div class="watch">
+					<video src="" controls autoplay id="watch"></video>
+				</div>
+			</div>
+			<div class="pagination">
+				<a href="?season=1">
+					1
+				</a>
+				<a href="?season=2">
+					2
+				</a>
+				<a href="?season=3">
+					3
+				</a>
+			</div>
+		</main>
+		<footer>
+			<span>©️ 2023 Sulpicio, not affiliated with Disney. All names, logos, images, and brands are property of The Walt Disney Company.</span>
+		</footer>
+	</div>
+</body>
+
+</html>
