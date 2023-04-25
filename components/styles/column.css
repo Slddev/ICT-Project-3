@@ -11,6 +11,10 @@
 	box-shadow: 5px 5px 5px white;
 }
 
+.title h1 {
+	font-size: 3rem;
+}
+
 @media screen and (max-width: 800px) {
 	.column {
 		flex-wrap: wrap;
