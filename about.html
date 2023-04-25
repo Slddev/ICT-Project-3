@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>The Mandalorian | About</title>
+	<link rel="stylesheet" href="components/styles/main.css" />
+	<link rel="stylesheet" href="components/styles/header.css" />
+	<link rel="stylesheet" href="components/styles/column.css" />
+    <style>
+        .column {
+            display: block;
+            column-count: 3;
+            text-align: left;
+            column-rule: 1px rgba(255, 255, 255, .5) solid;
+            outline: 1px rgba(255, 255, 255, .5) solid;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        
+        .title h1 {
+            text-align: center;
+            column-span: all;
+        }
+
+        @media screen and (max-width: 800px) {
+            .column {
+                column-count: 2;
+                padding: 10px;
+            }
+            .title {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+	<div class="pageWrapper">
+		<header>
+			<div class="titlebox">
+				<img src="components/assets/LogoText.png" alt="" />
+			</div>
+			<div class="navbar">
+				<div class="navitem">
+					<a href="index.html">Home</a>
+				</div>
+				<div class="navitem">
+					<a href="watch.html">Watch</a>
+				</div>
+				<div class="navitem">
+					<a href="about.html">About</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="column">
+				<div class="title">
+					<h1>The Story of The Mandalorian</h1>
+					<p>
+						Beginning five years after the events of Return of the Jedi (1983) and the fall of the Galactic Empire, The Mandalorian follows Din Djarin, a lone Mandalorian bounty hunter in the outer reaches of the galaxy. He is hired by remnant Imperial forces to retrieve the child Grogu, but instead goes on the run to protect the infant. While looking to reunite Grogu with his kind, they are pursued by Moff Gideon, who wants to use Grogu's connection to the Force. The duo then travel to Mandalore so Din Djarin can redeem himself for the transgression of removing his helmet.
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<span>©️ 2023 Sulpicio, not affiliated with Disney. All names, logos, images, and brands are property of The Walt Disney Company.</span>
+		</footer>
+	</div>
+</body>
+
+</html>
