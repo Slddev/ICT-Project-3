@@ -19,6 +19,11 @@ body {
     color: white;
 }
 
+.pageWrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -28,6 +33,7 @@ main {
     margin: 3rem 0;
     display: flex;
     justify-content: center;
+    padding-bottom: 8rem;
 }
 
 footer {
@@ -36,4 +42,7 @@ footer {
     text-align: center;
     background: rgba(0, 0, 0, 0.8);
     color: rgba(255, 255, 255, .3);
+    position: absolute;
+    bottom: 0;
+    height: 5rem;
 }
