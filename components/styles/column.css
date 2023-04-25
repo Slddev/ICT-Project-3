@@ -1,16 +1,22 @@
 .column {
-    column-count: 3;
-    margin: 0 5rem;
+	display: flex;
+	justify-content: center;
+	gap: 28px;
+	margin: 0 5rem;
+	max-width: 50rem;
 }
 
-.column h1 {
-    column-span: all;
-    text-align: center;
+.column img {
+	max-width: 300px;
+	box-shadow: 5px 5px 5px white;
 }
 
-@media screen and (max-width: 600px){
-    .column {
-        column-count: 1;
-        margin: 0 5rem;
-    }
+@media screen and (max-width: 800px) {
+	.column {
+		flex-wrap: wrap;
+		width: 60%;
+	}
+	.title {
+		text-align: center;
+	}
 }

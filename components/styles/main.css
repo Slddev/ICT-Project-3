@@ -23,3 +23,17 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+main {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    border-top: 1px rgba(255, 255, 255, .5) solid;
+    padding: 1rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, .3);
+}
